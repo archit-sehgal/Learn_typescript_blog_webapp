@@ -4,7 +4,7 @@ export default function OneC() {
   const title = new URLSearchParams(location.search).get("title");
   return (
     <>
-      <h1>1.{title}</h1>
+      <h1>1. {title}</h1>
       <p>
         TypeScript is a powerful superset of JavaScript that brings static
         typing and enhanced tooling to the JavaScript ecosystem. In this

@@ -84,8 +84,10 @@ p {
 .AsideNav h3 {
     padding: 20px;
     font-weight: 400;
-    background-color: #848484;
+    color:#b8b8b8;
+    background-color: #444654;
     letter-spacing: .05rem;
+    border-radius: 5px;
 }
 
 .asideLinks {

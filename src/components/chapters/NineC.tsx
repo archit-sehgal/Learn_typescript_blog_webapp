@@ -4,7 +4,7 @@ export default function NineC(){
     const title = new URLSearchParams(location.search).get("title");
     return (
         <>
-        <h1>{title}</h1>
+        <h1>9. {title}</h1>
         </> 
     )
 }

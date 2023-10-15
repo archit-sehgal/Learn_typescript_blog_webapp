@@ -4,7 +4,7 @@ export default function FiveC() {
   const title = new URLSearchParams(location.search).get("title");
   return (
     <>
-      <h1>5.{title}</h1>
+      <h1>5. {title}</h1>
       <p>
         In this section, we'll explore object-oriented programming (OOP) in
         TypeScript by learning how to define classes, implement inheritance, and

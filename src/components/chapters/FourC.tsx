@@ -4,7 +4,7 @@ export default function FourC() {
   const title = new URLSearchParams(location.search).get("title");
   return (
     <>
-      <h1>4.{title}</h1>
+      <h1>4. {title}</h1>
       <p>
         In this section, we'll explore how to define functions with type
         annotations, parameters, and return types. <br /> We'll also discuss the

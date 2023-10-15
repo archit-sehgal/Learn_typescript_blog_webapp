@@ -4,7 +4,7 @@ export default function ThirteenC(){
     const title = new URLSearchParams(location.search).get("title");
     return (
         <>
-        <h1>{title}</h1>
+        <h1>13. {title}</h1>
         </> 
     )
 }

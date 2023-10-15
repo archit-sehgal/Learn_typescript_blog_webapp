@@ -4,7 +4,7 @@ export default function TenC(){
     const title = new URLSearchParams(location.search).get("title");
     return (
         <>
-        <h1>{title}</h1>
+        <h1>10. {title}</h1>
         </> 
     )
 }

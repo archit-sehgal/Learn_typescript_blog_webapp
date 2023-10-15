@@ -4,7 +4,7 @@ export default function ThreeC() {
   const title = new URLSearchParams(location.search).get("title");
   return (
     <>
-      <h1>3.{title}</h1>
+      <h1>3. {title}</h1>
       <p>
         In this section, we'll explore more advanced TypeScript features,
         including complex data types, type unions, type intersections, type

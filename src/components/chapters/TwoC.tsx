@@ -4,7 +4,7 @@ export default function TwoC() {
   const title = new URLSearchParams(location.search).get("title");
   return (
     <>
-      <h1>2.{title}</h1>
+      <h1>2. {title}</h1>
       <p>
         In this section, we'll delve into the fundamental concepts of
         TypeScript. <br /> You'll learn about data types, type inference, type

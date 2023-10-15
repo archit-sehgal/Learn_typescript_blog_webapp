@@ -4,7 +4,7 @@ export default function SixC() {
   const title = new URLSearchParams(location.search).get("title");
   return (
     <>
-      <h1>6.{title}</h1>
+      <h1>6. {title}</h1>
       <p>
         In this section, we'll explore the powerful feature of generics in
         TypeScript, which allows you to create reusable components and functions
