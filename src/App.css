@@ -31,15 +31,18 @@ h2,
 h3 {
     letter-spacing: .05rem;
 }
-
+code{
+    color: rgb(255, 255, 127);
+}
 p {
     letter-spacing: .05rem;
 }
 
 .main {
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     width: 100%;
+    overflow:hidden;
     align-items: center;
     justify-content: center;
     padding-top: 100px;
@@ -67,6 +70,8 @@ p {
 .AsideNav {
     width: 250px;
     height: 100%;
+    max-height: 100%;
+    overflow-y: auto;
     position: fixed;
     top: 50px;
     left: 0;
@@ -74,8 +79,8 @@ p {
     background-color: rgb(229, 229, 229);
     padding: 10px;
     gap: 20px;
-}
-
+  }
+  
 .AsideNav h3 {
     padding: 20px;
     font-weight: 400;
@@ -85,13 +90,19 @@ p {
 
 .asideLinks {
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
 .asideLinks span {
-    height: 20px;
+    height: 25px;
     width: 100%;
     overflow: hidden;
+    padding: 2px;
+    border-radius: 5px;
+    transition: all .2s ease-out;
+}
+.asideLinks span:hover{
+    background-color: #b8b8b8;
 }
 
 .codebox {
@@ -99,7 +110,13 @@ p {
     color: white;
     height: 100%;
     padding: 20px;
+    overflow: hidden;
+    scroll-behavior:smooth;
     width: 100%;
     margin: 20px 0px;
     border-radius: 20px;
 }
+.AsideNav .linkContainer.active {
+    background-color:#9a9a9a;
+  }
+  

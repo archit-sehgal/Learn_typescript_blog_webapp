@@ -4,7 +4,7 @@ export default function SevenC(){
     const title = new URLSearchParams(location.search).get("title");
     return (
         <>
-        <h1>{title}</h1>
+        <h1>7.{title}</h1>
         </> 
     )
 }

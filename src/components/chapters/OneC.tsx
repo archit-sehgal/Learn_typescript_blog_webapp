@@ -154,6 +154,7 @@ sayHello("TypeScript");
         written TypeScript code, compiled it to JavaScript, and executed it.
       </p>
       <br />
+      <hr /><br />
       <i style={{color:"lightcoral"}}>
         In the next section, we will delve into the basics of TypeScript,
         including data types, type inference, and type annotations.
