@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 2.5rem;
+}
+h1,h2,h3{
+    letter-spacing: .05rem;
+}
+p{
+    letter-spacing: .05rem;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top:100px;
+    padding-left:400px;
+    padding-right:200px;
+    padding-bottom: 50px;
+    background-color: #202123;
+    color: white;
+}
+
+.nav {
+    width: 100%;
+    height: 53px;
+    z-index: 101;
+    position: fixed;
+    top:0;
+    right:0;
+    align-items: center;
+    padding-inline:20px;
+    justify-content: space-between;
+    color: rgb(206, 206, 206);
+    background-color:#444654;
+}
+.AsideNav{
+    width:250px;
+    height: 100%;
+    position: fixed;
+    top:50px;
+    left: 0;
+    flex-direction: column;
+    background-color: rgb(229, 229, 229);
+    padding: 10px;
+    gap:20px;
+}
+.AsideNav h3{
+    padding:20px;
+    font-weight: 400;
+    background-color: #848484;
+    letter-spacing: .05rem;
+}
+.asideLinks{
+    flex-direction: column;
+    gap:10px;
+}
+.asideLinks span{
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.codebox{
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
