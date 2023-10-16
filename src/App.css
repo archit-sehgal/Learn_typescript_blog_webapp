@@ -15,6 +15,7 @@ body {
 
 .flex {
     display: flex;
+    overflow: hidden;
 }
 
 a {
@@ -84,7 +85,7 @@ p {
     gap: 20px;
 }
 
-.AsideNav h3  {
+.AsideNav h3 {
     padding: 20px;
     font-weight: 400;
     color: #cfcfcf;
@@ -97,8 +98,9 @@ p {
     flex-direction: column;
     gap: 10px;
 }
-.AsideLinkH3{
-    color:#cfcfcf ;
+
+.AsideLinkH3 {
+    color: #cfcfcf;
 }
 
 .asideLinks span {
@@ -132,6 +134,7 @@ p {
 
 .socialLinks {
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .socialLinks a {
@@ -146,12 +149,11 @@ p {
     background-color: black;
 }
 
-.auto-type {
+.crossAside {
+    display: flex;
+    position: fixed;
+    top: 60px;
+    left: 260px;
+    color: rgb(215, 215, 215);
     font-size: 2rem;
-    margin-left: 10px;
-    font-family: Quicksand;
-    padding: 5px 10px;
-    font-weight: 500;
-    word-spacing: 0.2rem;
-    color: #fff;
 }

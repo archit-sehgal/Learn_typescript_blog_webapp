@@ -25,6 +25,7 @@ function App() {
     <Router>
       <Nav />
       <AsideNav />
+      <div className="crossAside"><i className="fa-solid fa-circle-xmark"></i></div>
       <div className="main">
         <Routes>
           <Route path="/" element={<Home />} />
