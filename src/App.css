@@ -83,6 +83,7 @@ p {
     background-color: rgb(229, 229, 229);
     padding: 10px;
     gap: 20px;
+    transition: left .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .AsideNav h3 {
@@ -150,10 +151,31 @@ p {
 }
 
 .crossAside {
-    display: flex;
+    display: none;
     position: fixed;
     top: 60px;
-    left: 260px;
+    padding: 10px;
+    background-color: rgb(255, 82, 82);
+    right: 10px;
+    border-radius: 50%;
     color: rgb(215, 215, 215);
-    font-size: 2rem;
+    font-size: 1.2rem;
+}
+
+/* small screens */
+@media screen and (max-width: 900px) {
+    .main {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+
+    .crossAside {
+        display: flex;
+    }
+
+    .AsideNav {
+        left: -300px;
+    }
 }
