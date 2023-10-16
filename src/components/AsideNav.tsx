@@ -37,7 +37,7 @@ export default function AsideNav() {
 
   return (
     <div className="AsideNav flex">
-      <h3>Table of Content</h3>
+      <h3><Link className="AsideLinkH3" to="/">Table of Content</Link></h3>
       <div className="asideLinks flex">
         {components.map((component, index) => (
           <span

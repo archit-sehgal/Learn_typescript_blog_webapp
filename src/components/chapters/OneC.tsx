@@ -159,6 +159,15 @@ sayHello("TypeScript");
         In the next section, we will delve into the basics of TypeScript,
         including data types, type inference, and type annotations.
       </i>
+      {/* social connection section */}
+      <br /><br /><br />
+      <p>Connect with me on:</p><br />
+      <div className="socialLinks flex">
+        <a href="https://twitter.com/_architsehgal_">X(formerly twitter)</a>
+        <a href="https://www.instagram.com/architsehgal_/">Instagram</a>
+        <a href="https://www.linkedin.com/in/archit-sehgal-78598025a/">Linkedin</a>
+        <a href="https://www.facebook.com/profile.php?id=100010642232108">Facebook</a>
+      </div>
     </>
   );
 }

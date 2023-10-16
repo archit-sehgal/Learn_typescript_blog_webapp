@@ -95,13 +95,25 @@ export default function TwelveC() {
       <br />
       <h2>12.3 Final Thoughts</h2>
       <br />
-      <p>
-        TypeScript empowers developers with the tools they need to write robust,
+      <i style={{color:"lightcoral"}}>
+        TypeScript empowers developers with the tools they need to write 
         maintainable, and scalable code. Whether you're building web
         applications, server-side applications, mobile apps, or desktop
         software, TypeScript can be a valuable asset in your development
         toolkit.
-      </p>
+      </i>
+      <br />
+      <br />
+      <hr />
+      {/* social connection section */}
+      <br /><br /><br />
+      <p>Connect with me on:</p><br />
+      <div className="socialLinks flex">
+        <a href="https://twitter.com/_architsehgal_">X(formerly twitter)</a>
+        <a href="https://www.instagram.com/architsehgal_/">Instagram</a>
+        <a href="https://www.linkedin.com/in/archit-sehgal-78598025a/">Linkedin</a>
+        <a href="https://www.facebook.com/profile.php?id=100010642232108">Facebook</a>
+      </div>
     </>
   );
 }

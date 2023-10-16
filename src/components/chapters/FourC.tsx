@@ -148,6 +148,15 @@ const add: AddFunction = (a, b) => a + b;
         TypeScript, covering how to define classes, implement inheritance, and
         work with access modifiers.
       </i>
+      {/* social connection section */}
+      <br /><br /><br />
+      <p>Connect with me on:</p><br />
+      <div className="socialLinks flex">
+        <a href="https://twitter.com/_architsehgal_">X(formerly twitter)</a>
+        <a href="https://www.instagram.com/architsehgal_/">Instagram</a>
+        <a href="https://www.linkedin.com/in/archit-sehgal-78598025a/">Linkedin</a>
+        <a href="https://www.facebook.com/profile.php?id=100010642232108">Facebook</a>
+      </div>
     </>
   );
 }
