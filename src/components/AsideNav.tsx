@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { useState, useEffect } from "react"; // Import useState and useEffect hooks
+import { useState, useEffect } from "react";
 
 export default function AsideNav() {
   const truncateTitle = (title:string, maxTitleLength:number) => {
