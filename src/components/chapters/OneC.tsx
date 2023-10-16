@@ -32,7 +32,7 @@ export default function OneC() {
         To verify your installation, open a terminal and run:
       </p>
       <div className="codebox">
-        node -v <br /> npm -v
+       <code> node -v <br /> npm -v</code>
       </div>
       <p>
         You should see the versions of Node.js and npm displayed in the
@@ -46,7 +46,7 @@ export default function OneC() {
         command:
       </p>
 
-      <div className="codebox">npm install -g typescript</div>
+      <div className="codebox"><code>npm install -g typescript</code></div>
       <p>
         This will make the TypeScript compiler (tsc) available on your command
         line.
@@ -77,8 +77,8 @@ export default function OneC() {
         project and run:
       </p>
       <div className="codebox">
-        mkdir my-typescript-project <br />
-        cd my-typescript-project
+        <code>mkdir my-typescript-project <br />
+        cd my-typescript-project</code>
       </div>
       <br />
       <h3 style={{color:"lightblue"}}>1.2.2 Initializing a package.json File</h3>
@@ -87,7 +87,7 @@ export default function OneC() {
         project's dependencies. <br /> Run the following command and answer the
         prompts: bash
       </p>
-      <div className="codebox">npm init -y</div>
+      <div className="codebox"><code>npm init -y</code></div>
       <p>
         This will create a package.json file with default values. You can modify
         it later to include project-specific information.
@@ -99,7 +99,7 @@ export default function OneC() {
         specify the TypeScript settings for your project. <br /> Generate a
         default tsconfig.json file by running:
       </p>
-      <div className="codebox">tsc --init</div>
+      <div className="codebox"><code>tsc --init</code></div>
       <p>This will create a tsconfig.json file in your project directory.</p>
       <br />
       <h3 style={{color:"lightblue"}}>1.2.4 Writing Your First TypeScript Code</h3>
@@ -136,7 +136,7 @@ sayHello("TypeScript");
         Compile the TypeScript code to JavaScript by running the following
         command in your project directory:
       </p>
-      <div className="codebox">tsc</div>
+      <div className="codebox"><code>tsc</code></div>
       <p>
         This will generate a JavaScript file named app.js in the same directory.
       </p>
@@ -146,9 +146,9 @@ sayHello("TypeScript");
         Now, you can run the JavaScript code using Node.js. In your terminal,
         execute the following command:
       </p>
-      <div className="codebox">node app.js</div>
+      <div className="codebox"><code>node app.js</code></div>
       <p>You should see the output:</p>
-      <div className="codebox">Hello, TypeScript!</div>
+      <div className="codebox"><code>Hello, TypeScript!</code></div>
       <p>
         Congratulations! You've successfully set up a TypeScript project,
         written TypeScript code, compiled it to JavaScript, and executed it.

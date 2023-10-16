@@ -12,7 +12,7 @@ export default function TwoC() {
       </p>
       <br />
       <br />
-      <h2 style={{color:"lightblue"}}>2.1 Data Types in TypeScript</h2>
+      <h2 style={{ color: "lightblue" }}>2.1 Data Types in TypeScript</h2>
       <p>
         TypeScript introduces static typing, which means you can specify the
         data type of variables. <br /> Here are some of the basic data types in
@@ -34,13 +34,15 @@ export default function TwoC() {
       <br />
       <p>Let's explore each data type with examples:</p>
       <br />
-      <h3 style={{color:"lightcoral"}}>2.1.1 Number Type</h3>
+      <h3 style={{ color: "lightcoral" }}>2.1.1 Number Type</h3>
       <div className="codebox">
-        let age: number = 25;
-        <br />
-        let price: number = 9.99;
+        <code>
+          let age: number = 25;
+          <br />
+          let price: number = 9.99;
+        </code>
       </div>
-      <h3 style={{color:"lightcoral"}}>2.1.2 String Type</h3>
+      <h3 style={{ color: "lightcoral" }}>2.1.2 String Type</h3>
       <div className="codebox">
         <pre>
           <code>
@@ -49,27 +51,29 @@ export default function TwoC() {
           </code>
         </pre>
       </div>
-      <h3 style={{color:"lightcoral"}}>2.1.3 Boolean Type</h3>
+      <h3 style={{ color: "lightcoral" }}>2.1.3 Boolean Type</h3>
       <div className="codebox">
-        let isReady: boolean = true; <br />
-        let isDone: boolean = false;
+        <code>let isReady: boolean = true; <br />
+        let isDone: boolean = false;</code>
       </div>
-      <h3 style={{color:"lightcoral"}}>2.1.4 Array Type</h3>
+      <h3 style={{ color: "lightcoral" }}>2.1.4 Array Type</h3>
       <div className="codebox">
-        let numbers: number[] = [1, 2, 3, 4, 5];
+       <code> let numbers: number[] = [1, 2, 3, 4, 5];
         <br />
         let fruits: string[] = ["apple", "banana", "cherry"];
-        <br />
+        <br /></code>
       </div>
-      <h3 style={{color:"lightcoral"}}>2.1.5 Any Type</h3>
+      <h3 style={{ color: "lightcoral" }}>2.1.5 Any Type</h3>
       <div className="codebox">
-        let dynamicValue: any = "This can be of any type";
+       <code> let dynamicValue: any = "This can be of any type";
         <br />
-        dynamicValue = 123; // Now it's a number
+        dynamicValue = 123; // Now it's a number</code>
       </div>
       <br />
       <br />
-      <h2 style={{color:"lightblue"}}>2.2 Type Inference and Type Annotations</h2>
+      <h2 style={{ color: "lightblue" }}>
+        2.2 Type Inference and Type Annotations
+      </h2>
       <p>
         TypeScript has a feature known as "type inference." This means that
         TypeScript can often automatically determine the type of a variable
@@ -77,21 +81,21 @@ export default function TwoC() {
         specify types using "type annotations."
       </p>
       <br />
-      <h3 style={{color:"lightcoral"}}>2.2.1 Type Inference</h3>
+      <h3 style={{ color: "lightcoral" }}>2.2.1 Type Inference</h3>
       <p>
         TypeScript can often figure out the type without explicit annotations:
       </p>
       <div className="codebox">
-        let message = "TypeScript is great!"; // TypeScript infers the type as
+       <code> let message = "TypeScript is great!"; // TypeScript infers the type as
         string. <br />
-        let count = 42; // TypeScript infers the type as number.
+        let count = 42; // TypeScript infers the type as number.</code>
       </div>
-      <h3 style={{color:"lightcoral"}}>2.2.2 Type Annotations</h3>
+      <h3 style={{ color: "lightcoral" }}>2.2.2 Type Annotations</h3>
       <p>You can provide explicit type annotations for variables:</p>
       <div className="codebox">
-        let username: string = "Alice";
+        <code>let username: string = "Alice";
         <br />
-        let age: number = 30;
+        let age: number = 30;</code>
       </div>
       <p>
         Using type annotations is helpful for clarity and catching potential
@@ -99,7 +103,7 @@ export default function TwoC() {
       </p>
       <br />
       <br />
-      <h2 style={{color:"lightblue"}}>2.3 Functions in TypeScript</h2>
+      <h2 style={{ color: "lightblue" }}>2.3 Functions in TypeScript</h2>
       <p>
         In TypeScript, functions can have type annotations for their parameters
         and return values. <br /> Here's an example:
@@ -124,21 +128,26 @@ export default function TwoC() {
       </ul>
       <br />
       <br />
-      <h2 style={{color:"lightblue"}}>2.4 Type Safety and Benefits</h2>
+      <h2 style={{ color: "lightblue" }}>2.4 Type Safety and Benefits</h2>
       <br />
-      <p style={{lineHeight:"2.5rem"}}>
+      <p style={{ lineHeight: "2.5rem" }}>
         The main advantage of TypeScript is type safety. <br /> It helps catch
         type-related errors at compile time, reducing bugs and enhancing code
-        quality. <br />Additionally, TypeScript offers excellent code editor support,
-        with autocompletion, type checking, and improved tooling. <br /> By mastering
+        quality. <br />
+        Additionally, TypeScript offers excellent code editor support, with
+        autocompletion, type checking, and improved tooling. <br /> By mastering
         these TypeScript basics, you'll be well-equipped to write more robust
-        and maintainable code.  <br />In the next section, we'll explore advanced
-        TypeScript types and features.
+        and maintainable code. <br />
+        In the next section, we'll explore advanced TypeScript types and
+        features.
       </p>
       <br />
       <hr />
       <br />
-      <i style={{color:"lightcoral"}}>The next section will dive into advanced TypeScript features, including interfaces, classes, generics, and more.</i>
+      <i style={{ color: "lightcoral" }}>
+        The next section will dive into advanced TypeScript features, including
+        interfaces, classes, generics, and more.
+      </i>
     </>
   );
 }

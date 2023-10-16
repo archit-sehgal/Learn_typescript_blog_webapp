@@ -19,8 +19,8 @@ export default function ThreeC() {
       <br />
       <h3 style={{ color: "lightcoral" }}>3.1.1 Arrays</h3>
       <div className="codebox">
-        let numbers: number[] = [1, 2, 3, 4, 5]; <br /> let words: string[] =
-        ["apple", "banana", "cherry"];
+      <code>  let numbers: number[] = [1, 2, 3, 4, 5]; <br /> let words: string[] =
+        ["apple", "banana", "cherry"];</code>
       </div>
       <h3 style={{ color: "lightcoral" }}>3.1.2 Objects</h3>
       <div className="codebox">
@@ -43,10 +43,10 @@ export default function ThreeC() {
       <h3 style={{ color: "lightcoral" }}>3.2.1 Type Unions</h3>
       <p>Type unions allow a variable to have multiple possible types:</p>
       <div className="codebox">
-        let result: number | string;
+        <code>let result: number | string;
         <br />
         result = 42; // Valid <br />
-        result = "Hello"; // Valid
+        result = "Hello"; // Valid</code>
       </div>
       <h3 style={{ color: "lightcoral" }}>3.2.2 Type Intersections</h3>
       <p>Type intersections combine multiple types:</p>
